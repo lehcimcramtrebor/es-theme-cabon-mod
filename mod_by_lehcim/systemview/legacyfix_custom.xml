@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+    <text name="systemInfo">
+      <backgroundColor>DDDDDDD8</backgroundColor>
+      <color>000000FF</color>
+      <glowSize>0</glowSize>
+      <reflexion>0 0</reflexion>
+	  <fontSize>0.030</fontSize>
+	  <pos>0 0.616</pos>
+    </text>  
+  </view>
+</theme>

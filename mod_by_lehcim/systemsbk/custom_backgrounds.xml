@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+
+	<sound name="bgsound">
+      <path>./../music/under_construction.ogg</path>
+      <path>./../music/${system.theme}.ogg</path>
+      <path>./../music/${system.theme}.mp3</path>
+	</sound>
+		
+    <image name="background_custom" extra="true">
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+      <path>./../background/under_construction.jpg</path>
+      <path>./../background/${system.theme}.jpg</path>
+      <color>FFFFFFFF</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>11</zIndex>
+    </image>
+    <image name="ControllerOverlay" extra="true">
+      <visible>false</visible>
+    </image>
+	
+    <image name="CenterFade" extra="true">
+      <color>000000B0</color>
+      <zIndex>12</zIndex>
+    </image>
+	
+    <text name="systemInfo">
+	  <color>060606</color>
+      <fontPath>./../font/DIGITAL.TTF</fontPath>
+      <fontSize>0.025</fontSize>
+	  <glowColor>30303007</glowColor>
+	  <glowSize>2</glowSize>
+	  <zIndex>500</zIndex>
+    </text>
+	
+  </view>
+
+  <view name="basic, detailed, video, grid">
+    <image name="background_custom" extra="true">
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+      <path>./../background/${system.theme}.jpg</path>
+      <color>757575</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>1</zIndex>
+    </image>
+  </view>
+  
+  <subset name="systemview" displayName="${systemViewName}">
+    <include name="horizontal">./../systemview/horizontal.xml</include>
+    <include name="legacy" tinyScreen="false">./../systemview/legacy.xml</include>
+    <include name="transparent" tinyScreen="false">./../systemview/transparent.xml</include>
+    <include name="simple">./../systemview/verticalone.xml</include>
+    <include name="vertical">./../systemview/vertical.xml</include>
+    <include name="wheel">./../systemview/wheel.xml</include>
+  </subset>
+  
+  <include subset="systemview" name="legacy">./../systemview/legacyfix_custom.xml</include>
+
+</theme>

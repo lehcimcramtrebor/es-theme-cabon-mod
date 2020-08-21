@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+
+    <text name="systemInfo">
+      <pos>0 0.58</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <glowSize>2</glowSize>
+      <fontSize>0.025</fontSize>
+      <reflexion>0.20 0.0</reflexion>
+    </text>
+	
+	<image name="dark_systeminfo" extra="true">
+	  <path>./../../art/darkwheel.png</path>
+	  <zIndex>400</zIndex>
+	  <origin>0.5 0.5</origin>
+	  <pos>0.5 0.7</pos>
+	  <size>0.16 0.14</size>
+	  <color>ffffff</color>
+	</image>
+	
+  </view>
+</theme>

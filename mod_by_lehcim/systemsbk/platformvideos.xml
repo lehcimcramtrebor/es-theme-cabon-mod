@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+     <image name="BottomBar" extra="static">
+      <zIndex>500</zIndex>
+    </image> 
+    <image name="start_plateform" extra="true">
+	  <path>./../video_background/default.jpg</path>
+      <path>./../../art/background/${system.theme}.jpg</path>	
+	  <path>./../video_background/${system.theme}.jpg</path>
+      <color>303030</color>	  
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <size>1 1</size>
+      <zIndex>11</zIndex>
+    </image>
+    <video name="backgroundvideo" extra="true">
+      <path>{random}</path>
+      <path>./../platform_videos/${system.theme}.mp4</path>
+      <path>./../../platform_videos/${system.theme}.mp4</path>
+      <path>./../../../platform_videos/${system.theme}.mp4</path>
+      <path>./../../../../platform_videos/${system.theme}.mp4</path>
+      <path>./../../../../../platform_videos/${system.theme}.mp4</path>
+      <path>./../../../../../../platform_videos/${system.theme}.mp4</path>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <size>1 1</size>
+      <delay>0.3</delay>
+      <color>FFFFFF</color>
+      <effect>none</effect>
+      <zIndex>51</zIndex>
+    </video>
+    <text name="systemInfo">
+      <fontPath>./../font/DIGITAL.TTF</fontPath>
+      <fontSize>0.025</fontSize>	  
+      <pos>0.3 0.843</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <glowSize>1</glowSize>
+      <reflexion>0 0.0</reflexion>
+	  <zIndex>1000</zIndex>	  
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+    </text>	
+    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+      <pos>0.5 0.5</pos>
+      <minSize>1 1</minSize>
+    </video>
+    <image name="ControllerOverlay" extra="true">
+      <visible>false</visible>
+    </image>
+    <image name="CenterFade" extra="true">
+      <color>00000000</color>
+    </image>    
+  </view>
+
+  <view name="basic, detailed, video, grid">
+    <image name="background_custom" extra="true">
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
+	  <path>./../video_background/default.jpg</path>
+      <path>./../../art/background/${system.theme}.jpg</path>	
+	  <path>./../video_background/${system.theme}.jpg</path>	  
+      <color>303030</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <zIndex>1</zIndex>
+    </image>
+  </view>
+  
+</theme>

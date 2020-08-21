@@ -1,0 +1,1 @@
+Here you can put your backgrounds in .jpg to personnalize your theme.
