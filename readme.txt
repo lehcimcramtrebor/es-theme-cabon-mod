@@ -16,14 +16,12 @@ Sounds:
 To change the sound effect, replace /art/scroll.wav with what ever WAV file you would like. Carbon theme will play what ever is called "scroll.wav" in the /art folder.
 
 ==================================================================================
-22/08/2020
 
-Modded by Lehcim,
 Add support of music, platform_videos and custom backgrounds, see readme.txt in:
 
-	-mod_by_lehcim/backgrounds
-	-mod_by_lehcim/platform_videos
-	-mod_by_lehcim/music
+	-mod/backgrounds
+	-mod/platform_videos
+	-mod/music
 
 ==================================================================================
 
