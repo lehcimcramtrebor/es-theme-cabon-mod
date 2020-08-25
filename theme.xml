@@ -746,9 +746,7 @@ originally based on: "simple" by nils bonenberger
  
  <!----------------------------- Mod Custom Backgrounds And Platform Videos----------------------------->
  
-  <subset name="systembackground" displayName="${systemBackgroundName}">
-	<include name="custom backgrounds">./mod/systemsbk/custom_backgrounds.xml</include>
-	<include name="platform videos">./mod/systemsbk/platformvideos.xml</include>
-  </subset>   
+	<include>./mod/mod.xml</include>
+	
  <!----------------------------------------------------------------------------------------------------->
 </theme>
