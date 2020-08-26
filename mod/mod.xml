@@ -10,29 +10,29 @@
   <variables lang="fr">
     <subset.videoshader>Effets Vidéos</subset.videoshader>
   </variables>
+
   <subset name="systembackground" displayName="${systemBackgroundName}">
 	<include name="(Mod) Custom Backgrounds">./systemsbk/custom_backgrounds.xml</include>
 	<include name="(Mod) Platform Videos">./systemsbk/platformvideos.xml</include>
   </subset>   
 
   <subset name="shader" displayName="${subset.shader}">
+    <include name="(Mod) CRT +">./effects/screen_effect_crt_+.xml</include>
     <include name="(Mod) Scanlines">./effects/screen_effect_scanlines.xml</include>
     <include name="(Mod) Scanlines Fines">./effects/screen_effect_scanlines_fine.xml</include>
     <include name="(Mod) Scanlines Vertical">./effects/screen_effect_scanlines_vertical.xml</include>
     <include name="(Mod) Scanlines Vertical Fine">./effects/screen_effect_scanlines_vertical_fine.xml</include>
     <include name="(Mod) Phosphore">./effects/screen_effect_phosphore.xml</include>
     <include name="(Mod) Phosphore +">./effects/screen_effect_phosphore_+.xml</include>
-
   </subset>
 
   <subset name="video_shader" displayName="${subset.videoshader}">
     <include name="None" displayName="${none}"/>
+    <include name="(Mod) CRT +">./effects/tv_effect_crt_+.xml</include>
     <include name="(Mod) CRT">./effects/tv_effect_crt.xml</include>
     <include name="(Mod) FLICKERING">./effects/tv_effect_flickering.xml</include>
-    <include name="(Mod) CRT + FLICKERING">./effects/tv_effect_crt_flickering.xml</include>
     <include name="(Mod) GLITCH">./effects/tv_effect_glitch.xml</include>
     <include name="(Mod) VHS GLITCH">./effects/tv_effect_vhs_glitch.xml</include>
-
-
-  </subset>    
+  </subset> 
+  
 </theme>
