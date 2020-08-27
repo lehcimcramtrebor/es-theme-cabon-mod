@@ -4,17 +4,14 @@
 
   <variables>
     <subset.videoshader>Video Shader</subset.videoshader>
+    <subset.retrobat>Collections Audio Mode (Mod)</subset.retrobat>
   </variables>
   
   <!-- French -->
   <variables lang="fr">
-    <subset.videoshader>Effets Vidéos</subset.videoshader>
+    <subset.videoshader>Video Shader</subset.videoshader>
+    <subset.retrobat>Mode Audio Des Collections (Mod)</subset.retrobat>
   </variables>
-
-  <subset name="systembackground" displayName="${systemBackgroundName}">
-	<include name="(Mod) Custom Backgrounds">./systemsbk/custom_backgrounds.xml</include>
-	<include name="(Mod) Platform Videos">./systemsbk/platformvideos.xml</include>
-  </subset>   
 
   <subset name="shader" displayName="${subset.shader}">
     <include name="(Mod) CRT +">./effects/screen_effect_crt_+.xml</include>
@@ -34,5 +31,10 @@
     <include name="(Mod) GLITCH">./effects/tv_effect_glitch.xml</include>
     <include name="(Mod) VHS GLITCH">./effects/tv_effect_vhs_glitch.xml</include>
   </subset> 
+
+  <subset name="systembackground" displayName="${systemBackgroundName}">
+	<include name="(Mod) Custom Backgrounds">./systemsbk/custom_backgrounds.xml</include>
+	<include name="(Mod) Platform Videos">./systemsbk/platformvideos.xml</include>
+  </subset>
   
 </theme>

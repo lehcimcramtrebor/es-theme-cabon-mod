@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+
+  <subset name="RetroBato" displayName="${subset.retrobat}">
+	<!-- BATOCERA AUTO-COLLECTIONS MUSIC REGROUPMENT -->
+    <include name="Batocera">./${system.theme}.xml</include>
+    <include name="Batocera">./standalone_themes/${system.theme}.xml</include>
+	<!-- RETROBAT AUTO-COLLECTIONS MUSIC REGROUPMENT EXCEPT STANDALONE THEMES -->
+    <include name="Retrobat">./${system.theme}.xml</include>
+ 	<!-- NONE, ALL Musics are independant -->
+    <include name="${none}">./nope.xml</include>
+  </subset>
+
+</theme>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+
+	<sound name="bgsound">
+      <path>./../../music/auto-lastplayed.ogg</path>
+      <path>./../../music/auto-lastplayed.mp3</path>
+	</sound>
+		
+  </view>
+
+</theme>

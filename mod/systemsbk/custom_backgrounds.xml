@@ -64,4 +64,6 @@
   
   <include subset="systemview" name="legacy">./../systemview/legacyfix_custom.xml</include>
 
+  <include>./backgrounds_music_specifics/retrobato.xml</include>
+
 </theme>
