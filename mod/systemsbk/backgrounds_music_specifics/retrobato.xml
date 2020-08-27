@@ -8,8 +8,6 @@
     <include name="Batocera">./standalone_themes/${system.theme}.xml</include>
 	<!-- RETROBAT AUTO-COLLECTIONS MUSIC REGROUPMENT EXCEPT STANDALONE THEMES -->
     <include name="Retrobat">./${system.theme}.xml</include>
- 	<!-- NONE, ALL Musics are independant -->
-    <include name="${none}">./nope.xml</include>
   </subset>
 
 </theme>
