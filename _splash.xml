@@ -37,9 +37,8 @@
     <image name="background">
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
-	  <linearSmooth>true</linearSmooth>
-      <maxSize>0.5 0.5</maxSize>
-      <path>./logo.png</path>
+      <minSize>1 1</minSize>
+      <path>:/logo.png</path>
     </image>
     <text name="label">
       <color>FFFFFFFF</color>

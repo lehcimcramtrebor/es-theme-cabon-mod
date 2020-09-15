@@ -37,18 +37,4 @@
 	<include name="(Mod) Platform Videos">./systemsbk/platformvideos.xml</include>
   </subset>
 
-  <view name="system">
-
-    <image name="logo">
-      <!-- try png -->
-      <path>./logos/${system.theme}.png</path>
-      <!-- try svg -->
-      <path>./logos/${system.theme}.svg</path>
-      <!-- check if lang resources exist -->
-      <path>./logos/${system.theme}-${lang}.png</path>
-      <path>./logos/${system.theme}-${lang}.svg</path>
-
-    </image>
-	
-  </view>  
 </theme>

@@ -15,17 +15,6 @@ To change the colors open carbon.xml with a text editor. Choose a color and find
 Sounds:
 To change the sound effect, replace /art/scroll.wav with what ever WAV file you would like. Carbon theme will play what ever is called "scroll.wav" in the /art folder.
 
-==================================================================================
-
-Add support of music, platform_videos and custom backgrounds, see readme.txt in:
-
-	-mod/backgrounds
-	-mod/platform_videos
-	-mod/music
-
-==================================================================================
-
-
 Changelog
 =========
 

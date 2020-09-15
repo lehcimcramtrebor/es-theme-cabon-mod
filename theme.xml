@@ -77,7 +77,9 @@ originally based on: "simple" by nils bonenberger
     </helpsystem>
   </view>
   <view name="system">
+
     <!-- Used by random box need to be declared there -->
+
     <image name="box" extra="true">
       <pos>0.50 0.18</pos>
       <origin>0.5 0.5</origin>
@@ -121,6 +123,17 @@ originally based on: "simple" by nils bonenberger
       <path>/userdata/themes/${system.theme}/art/${system}-${lang}.svg</path>
       -->
     </image>
+    <image name="logo" region="eu"></image>
+		<image name="logo" region="us">
+		  <path>./art/logos/us/${system.theme}.png</path>
+			<path>./art/logos/us/${system.theme}.svg</path>
+		</image>
+		
+		<image name="logo" region="jp">
+		  <path>./art/logos/jp/${system.theme}.png</path>
+			<path>./art/logos/jp/${system.theme}.svg</path>
+		</image>
+		    
     <image name="BottomBar" extra="static">
       <tile>false</tile>
       <size>1 0.065</size>
@@ -141,6 +154,27 @@ originally based on: "simple" by nils bonenberger
       <zIndex>19</zIndex>
     </image>
   </view>
+  
+  <feature supported="manufacturer">
+    <view name="system">
+      <text name="manufacturerName" extra="static">
+        <pos>0.025 0.8</pos>
+        <size>0.98 0.15</size>
+        <text>Manufacturer : ${system.manufacturer}
+Release Year : ${system.releaseYear}</text>
+        <text lang="fr">Constructeur : ${system.manufacturer}
+Année de sortie : ${system.releaseYear}</text>
+        <alignment>left</alignment>
+        <fontPath>./art/Cabin-Regular.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <glowSize>1</glowSize>
+        <glowColor>${glowColor}</glowColor>
+        <color>C0C0C0</color>      
+        <zIndex>100</zIndex>
+      </text>
+    </view>
+  </feature>
+  
   <!-- Subset options for screen -->
   <subset name="systemview" displayName="${systemViewName}">
     <include name="horizontal">./art/systemview/horizontal.xml</include>
@@ -265,6 +299,7 @@ originally based on: "simple" by nils bonenberger
       <iconShutdown>./art/icons/Shutdown.png</iconShutdown>
       <iconFastShutdown>./art/icons/Fastshutdown.png</iconFastShutdown>
       <iconRetroachievements>./art/icons/Contest.png</iconRetroachievements>
+      <iconManual>./art/icons/Manual.png</iconManual>
     </menuIcons>
     <menuTextEdit name="menutextedit">
       <inactive>./art/textinput_ninepatch.png</inactive>
@@ -296,8 +331,14 @@ originally based on: "simple" by nils bonenberger
       <horizontalMargin>0.01</horizontalMargin>
       <forceUppercase>1</forceUppercase>
       <scrollSound>./art/scroll.wav</scrollSound>
-<lines>17</lines>
-<horizontalMargin>0.005</horizontalMargin>
+      
+      <scrollbarColor>252525</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.005</scrollbarSize>
+      <scrollbarAlignment>outerright</scrollbarAlignment> <!-- innerleft -->
+
+      <lines>17</lines>
+      <horizontalMargin>0.005</horizontalMargin>
     </textlist>
   </view>
   <view name="detailed">
@@ -394,8 +435,14 @@ originally based on: "simple" by nils bonenberger
       <horizontalMargin>0.00</horizontalMargin>
       <fontSize>0.03</fontSize>
       <scrollSound>./art/scroll.wav</scrollSound>
-<lines>17</lines>
-<horizontalMargin>0.005</horizontalMargin>
+      
+      <scrollbarColor>252525</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.0055</scrollbarSize>            
+      <scrollbarAlignment>outerright</scrollbarAlignment>
+      
+      <lines>17</lines>
+      <horizontalMargin>0.005</horizontalMargin>
     </textlist>
     <image name="md_hidden">
       <path>./art/hidden.svg</path>
@@ -408,12 +455,22 @@ originally based on: "simple" by nils bonenberger
 
     <image name="md_kidgame">     
       <path>./art/kid.svg</path>
+      <pos>0.86 0.9</pos>
+      <maxSize>0.02 0.03</maxSize>      
+      <origin>0.5 0.5</origin>
+      <color>969696</color>
+      <zIndex>150</zIndex>
+    </image>
+
+    <image name="md_manual">
+      <path>./art/manual.svg</path>
       <pos>0.882 0.9</pos>
       <maxSize>0.02 0.03</maxSize>      
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
     </image>
+
 <!--
     <image name="md_favorite">
       <pos>0.975 0.21</pos>
@@ -471,6 +528,18 @@ originally based on: "simple" by nils bonenberger
       <maxSize>0.3 0.120</maxSize>
       <origin>0.5 0.5</origin>
     </image>
+
+    <image name="logo" region="eu"></image>
+		<image name="logo" region="us">
+		  <path>./art/logos/us/${system.theme}.png</path>
+			<path>./art/logos/us/${system.theme}.svg</path>
+		</image>
+		
+		<image name="logo" region="jp">
+		  <path>./art/logos/jp/${system.theme}.png</path>
+			<path>./art/logos/jp/${system.theme}.svg</path>
+		</image>
+		    
     <text name="folderpath">
       <pos>0.05 0.132</pos>
       <size>0.90 0.02</size>  
@@ -505,6 +574,26 @@ originally based on: "simple" by nils bonenberger
       <color>FFFFFF</color>
       <unfilledColor>808080</unfilledColor>
     </rating>
+<!--
+    <image name="md_fanart">
+      <pos>0.5 0.08</pos>
+      <minSize>1 0.16</minSize>      
+      <origin>0.5 0.5</origin>
+      <color>808080</color>
+      <zIndex>1</zIndex>
+<linearSmooth>true</linearSmooth>
+    </image>
+-->
+
+    <image name="md_manual">
+      <path>./art/manual.svg</path>
+      <pos>0.023 0.896</pos>
+      <maxSize>0.02 0.03</maxSize>      
+      <origin>0.5 0.5</origin>
+      <color>808080</color>
+      <zIndex>150</zIndex>
+    </image>
+
     <imagegrid name="gamegrid">
       <!--
       <pos>0.025 0.16</pos>
@@ -520,6 +609,11 @@ originally based on: "simple" by nils bonenberger
       <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
+
+      <scrollbarColor>252525</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.005</scrollbarSize>
+
     </imagegrid>
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
@@ -743,10 +837,11 @@ originally based on: "simple" by nils bonenberger
     <include name="yes" displayName="${yes}">./art/tiles/marquee.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
- 
+
  <!----------------------------- Mod Custom Backgrounds And Platform Videos----------------------------->
  
 	<include>./mod/mod.xml</include>
 	
  <!----------------------------------------------------------------------------------------------------->
+ 
 </theme>
