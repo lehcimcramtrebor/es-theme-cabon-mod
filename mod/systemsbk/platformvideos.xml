@@ -77,7 +77,13 @@
       <linearSmooth>true</linearSmooth>
 	  <path>./../video_background/default.jpg</path>
       <path>./../../art/background/${system.theme}.jpg</path>	
-	  <path>./../video_background/${system.theme}.jpg</path>	  
+	  <path>./../video_background/${system.theme}.jpg</path>
+      <path>./../platform_videos/${system.theme}.jpg</path>
+      <path>./../../platform_videos/${system.theme}.jpg</path>
+      <path>./../../../platform_videos/${system.theme}.jpg</path>
+      <path>./../../../../platform_videos/${system.theme}.jpg</path>
+      <path>./../../../../../platform_videos/${system.theme}.jpg</path>
+      <path>./../../../../../../platform_videos/${system.theme}.jpg</path>	  
       <color>303030</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
