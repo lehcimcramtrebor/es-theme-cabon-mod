@@ -30,6 +30,8 @@
       <size>1 1</size>
       <zIndex>11</zIndex>
     </image>
+
+
     <video name="backgroundvideo" extra="true">
       <path>{random}</path>
       <path>./../platform_videos/${system.theme}.mp4</path>
@@ -46,6 +48,27 @@
       <effect>none</effect>
       <zIndex>51</zIndex>
     </video>
+	
+    <video name="backgroundvideo" region="eu" extra="true"></video>
+	
+	<video name="backgroundvideo" region="us" extra="true">
+      <path>./../platform_videos/us/${system.theme}.mp4</path>
+      <path>./../../platform_videos/us/${system.theme}.mp4</path>
+      <path>./../../../platform_videos/us/${system.theme}.mp4</path>
+      <path>./../../../../platform_videos/us/${system.theme}.mp4</path>
+      <path>./../../../../../platform_videos/us/${system.theme}.mp4</path>
+      <path>./../../../../../../platform_videos/us/${system.theme}.mp4</path>
+    </video>
+	
+	<video name="backgroundvideo" region="jp" extra="true">
+      <path>./../platform_videos/jp/${system.theme}.mp4</path>
+      <path>./../../platform_videos/jp/${system.theme}.mp4</path>
+      <path>./../../../platform_videos/jp/${system.theme}.mp4</path>
+      <path>./../../../../platform_videos/jp/${system.theme}.mp4</path>
+      <path>./../../../../../platform_videos/jp/${system.theme}.mp4</path>
+      <path>./../../../../../../platform_videos/jp/${system.theme}.mp4</path>
+    </video>
+	
     <text name="systemInfo">
       <fontPath>./../font/DIGITAL.TTF</fontPath>
       <fontSize>0.025</fontSize>	  
