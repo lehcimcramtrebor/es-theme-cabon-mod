@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--Generator: Xara Xtreme (www.xara.com), SVG filter version: 1.0.0.13-->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,28 +7,28 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   stroke-width="0.501"
-   stroke-linejoin="bevel"
-   fill-rule="evenodd"
-   version="1.1"
-   overflow="visible"
-   width="417.6pt"
-   height="86.4pt"
-   viewBox="0 0 417.6 86.4"
-   id="svg98"
+   version="1.0"
+   width="1228.6"
+   height="220.10001"
+   viewBox="0 0 12286 2201.0001"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg16"
    sodipodi:docname="naomi2.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
-     id="metadata102">
+     id="metadata22">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <defs
+     id="defs20" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,298 +38,57 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview100"
+     inkscape:window-width="2023"
+     inkscape:window-height="1170"
+     id="namedview18"
      showgrid="false"
-     inkscape:zoom="1.813485"
-     inkscape:cx="299.44222"
-     inkscape:cy="48.915612"
-     inkscape:current-layer="Layer 1" />
-  <defs
-     id="defs79">
-    <marker
-       id="DefaultArrow2"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_STRAIGHT (-2) -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g4">
-        <!-- 1/108 -->
-        <path
-           d="M -9 54 L -9 -54 L 117 0 z"
-           id="path2" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow3"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_ANGLED -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g9">
-        <path
-           d="M -27 54 L -9 0 L -27 -54 L 135 0 z"
-           id="path7" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow4"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_ROUNDED -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g14">
-        <path
-           d="M -9,0 L -9,-45 C -9,-51.708 2.808,-56.580 9,-54 L 117,-9 C 120.916,-7.369 126.000,-4.242 126,0 C 126,4.242 120.916,7.369 117,9 L 9,54 C 2.808,56.580 -9,51.708 -9,45 z"
-           id="path12" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow5"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_SPOT -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g19">
-        <path
-           d="M -54, 0 C -54,29.807 -29.807,54 0,54 C 29.807,54 54,29.807 54,0 C 54,-29.807 29.807,-54 0,-54 C -29.807,-54 -54,-29.807 -54,0 z"
-           id="path17" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow6"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_DIAMOND -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g24">
-        <path
-           d="M -63,0 L 0,63 L 63,0 L 0,-63 z"
-           id="path22" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow7"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_FEATHER -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g29">
-        <path
-           d="M 18,-54 L 108,-54 L 63,0 L 108,54 L 18, 54 L -36,0 z"
-           id="path27" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow8"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_FEATHER2 -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g34">
-        <path
-           d="M -36,0 L 18,-54 L 54,-54 L 18,-18 L 27,-18 L 63,-54 L 99,-54 L 63,-18 L 72,-18 L 108,-54 L 144,-54 L 90,0 L 144,54 L 108,54 L 72,18 L 63,18 L 99,54 L 63,54 L 27,18 L 18,18 L 54,54 L 18,54 z"
-           id="path32" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow9"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_HOLLOWDIAMOND -->
-      <g
-         transform="scale(0.0092592592)"
-         id="g39">
-        <path
-           d="M 0,45 L -45,0 L 0, -45 L 45, 0 z M 0, 63 L-63, 0 L 0, -63 L 63, 0 z"
-           id="path37" />
-      </g>
-    </marker>
-    <filter
-       id="StainedFilter">
-      <feBlend
-         mode="multiply"
-         in2="BackgroundImage"
-         in="SourceGraphic"
-         result="blend"
-         id="feBlend42" />
-      <feComposite
-         in="blend"
-         in2="SourceAlpha"
-         operator="in"
-         result="comp"
-         id="feComposite44" />
-    </filter>
-    <filter
-       id="BleachFilter">
-      <feBlend
-         mode="screen"
-         in2="BackgroundImage"
-         in="SourceGraphic"
-         result="blend"
-         id="feBlend47" />
-      <feComposite
-         in="blend"
-         in2="SourceAlpha"
-         operator="in"
-         result="comp"
-         id="feComposite49" />
-    </filter>
-    <filter
-       id="InvertTransparencyBitmapFilter">
-      <feComponentTransfer
-         id="feComponentTransfer58">
-        <feFuncR
-           type="gamma"
-           amplitude="1.055"
-           exponent=".416666666"
-           offset="-0.055"
-           id="feFuncR52" />
-        <feFuncG
-           type="gamma"
-           amplitude="1.055"
-           exponent=".416666666"
-           offset="-0.055"
-           id="feFuncG54" />
-        <feFuncB
-           type="gamma"
-           amplitude="1.055"
-           exponent=".416666666"
-           offset="-0.055"
-           id="feFuncB56" />
-      </feComponentTransfer>
-      <feComponentTransfer
-         id="feComponentTransfer68">
-        <feFuncR
-           type="linear"
-           slope="-1"
-           intercept="1"
-           id="feFuncR60" />
-        <feFuncG
-           type="linear"
-           slope="-1"
-           intercept="1"
-           id="feFuncG62" />
-        <feFuncB
-           type="linear"
-           slope="-1"
-           intercept="1"
-           id="feFuncB64" />
-        <feFuncA
-           type="linear"
-           slope="1"
-           intercept="0"
-           id="feFuncA66" />
-      </feComponentTransfer>
-      <feComponentTransfer
-         id="feComponentTransfer76">
-        <feFuncR
-           type="gamma"
-           amplitude="1"
-           exponent="2.4"
-           offset="0"
-           id="feFuncR70" />
-        <feFuncG
-           type="gamma"
-           amplitude="1"
-           exponent="2.4"
-           offset="0"
-           id="feFuncG72" />
-        <feFuncB
-           type="gamma"
-           amplitude="1"
-           exponent="2.4"
-           offset="0"
-           id="feFuncB74" />
-      </feComponentTransfer>
-    </filter>
-  </defs>
+     inkscape:zoom="0.94108527"
+     inkscape:cx="613.3"
+     inkscape:cy="108.3"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg16"
+     inkscape:document-rotation="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
-     id="Document"
-     font-size="16"
-     transform="scale(1,-1)"
-     style="font-size:16px;font-family:'Times New Roman';fill:none;stroke:#000000">
-    <g
-       id="Spread"
-       transform="translate(0,-86.4)">
-      <g
-         id="Layer 1">
-        <path
-           d="M 72.677,6.953 V 83.014 H 60.033 L 60.241,34.104 1.798,82.392 2.004,6.125 H 12.989 V 55.449 L 72.677,6.953"
-           id="path81"
-           inkscape:connector-curvature="0"
-           style="fill:#ffffff;stroke:none" />
-        <path
-           d="m 80.758,5.711 9.74,16.579 H 81.586 V 33.896 H 96.301 L 123.037,82.392 165.729,5.711 H 150.6 L 141.896,22.29 H 103.971 L 94.85,5.711 H 80.758 m 28.393,28.393 h 27.356 L 122.829,59.179 109.151,34.104"
-           id="path83"
-           inkscape:connector-curvature="0"
-           style="fill:#ffffff;stroke:none" />
-        <path
-           d="m 273.912,5.711 h -12.436 v 76.473 l 42.28,-49.117 42.691,50.153 V 5.711 h -13.264 l -0.206,41.657 -29.43,-35.44 -29.635,35.232 V 5.711"
-           id="path85"
-           inkscape:connector-curvature="0"
-           style="fill:#ffffff;stroke:none" />
-        <path
-           d="m 370.488,5.711 0.208,78.34 h 12.642 L 383.13,5.711 h -12.642"
-           id="path87"
-           inkscape:connector-curvature="0"
-           style="fill:#ffffff;stroke:none" />
-        <path
-           d="m 394.943,71.201 v 10.983 h -3.524 v 2.073 h 9.743 V 82.184 H 397.43 V 71.201 h -2.487"
-           id="path89"
-           inkscape:connector-curvature="0"
-           style="fill:#ffffff;stroke:none" />
-        <path
-           d="m 401.782,71.407 v 12.85 h 3.524 l 3.729,-8.084 3.524,8.084 h 2.695 V 71.201 h -2.487 v 8.495 l -3.523,-8.495 -4.975,8.495 v -8.495 l -2.487,0.206"
-           id="path91"
-           inkscape:connector-curvature="0"
-           style="fill:#ffffff;stroke:none" />
-        <path
-           d="m 165.315,43.222 c 0,23.004 18.652,41.657 41.657,41.657 23.004,0 41.657,-18.653 41.657,-41.657 0,-23.005 -18.653,-41.657 -41.657,-41.657 -23.005,0 -41.657,18.652 -41.657,41.657 m 41.657,-29.221 c 16.165,0 29.221,13.056 29.221,29.221 0,15.957 -13.056,29.015 -29.221,29.015 -15.958,0 -29.016,-13.058 -29.016,-29.015 0,-16.165 13.058,-29.221 29.016,-29.221"
-           id="path93"
-           inkscape:connector-curvature="0"
-           style="fill:#ff0000;stroke:none" />
-      </g>
-    </g>
+     id="layer101"
+     fill="#000000"
+     stroke="none"
+     style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-317,-72)">
+    <path
+       d="m 2407,2113 c 15,-27 71,-122 125,-213 l 97,-165 -109,-3 -110,-3 v -159 -160 h 193 l 192,-1 349,-634 c 192,-349 351,-635 355,-635 5,1 1111,1985 1119,2009 3,8 -60,11 -200,11 h -203 l -112,-212 -112,-213 h -496 -497 l -117,212 -116,213 H 2572 2379 Z M 3783,1302 C 3588,938 3494,772 3489,778 c -4,4 -83,148 -177,320 l -170,312 h 349 350 z"
+       id="path2"
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="m 7120,1155 c 0,-553 3,-1005 8,-1005 4,0 254,288 557,639 302,352 550,639 551,638 18,-26 1109,-1303 1115,-1305 5,-2 9,427 9,1017 v 1021 h -180 -180 l -2,-540 -3,-539 -380,459 c -209,252 -383,458 -387,457 -4,-1 -177,-204 -385,-452 l -378,-450 -3,533 -2,532 h -170 -170 z"
+       id="path4"
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="M 9980,1130 V 100 h 170 170 v 1030 1030 h -170 -170 z"
+       id="path6"
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="M 320,1144 V 138 l 48,38 c 89,74 1377,1138 1429,1182 l 53,44 -7,-641 -6,-641 h 171 172 v 1006 c 0,553 -3,1003 -7,1001 -5,-3 -354,-287 -778,-631 l -770,-626 -3,640 -2,640 H 470 320 Z"
+       id="path8"
+       style="fill:#f9f9f9;stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <g
+     id="layer102"
+     fill="#f36418"
+     stroke="none"
+     transform="translate(-317,-72)">
+    <path
+       d="m 5518,2255 c -221,-36 -419,-137 -585,-298 -309,-299 -413,-752 -267,-1157 95,-265 288,-482 539,-608 163,-81 299,-112 500,-112 302,0 540,98 756,310 155,152 240,295 295,492 32,116 44,344 24,466 -71,443 -412,803 -852,898 -102,22 -303,27 -410,9 z m 358,-345 c 309,-79 531,-327 575,-645 36,-255 -81,-530 -294,-691 -407,-308 -992,-135 -1167,343 -131,361 31,764 375,934 161,79 346,101 511,59 z"
+       id="path11"
+       style="stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="m 11210,2177 v -94 l 300,-292 c 417,-407 552,-563 649,-752 63,-124 86,-221 78,-338 -7,-104 -17,-140 -59,-211 -64,-105 -170,-159 -328,-167 -153,-8 -278,31 -424,131 -37,26 -70,46 -72,44 -13,-14 -94,-204 -90,-213 8,-21 144,-106 224,-140 144,-60 199,-70 392,-70 170,0 178,1 260,31 262,93 400,300 400,598 0,181 -45,325 -157,505 -88,142 -207,277 -474,544 l -268,267 h 479 480 v 125 125 h -695 -695 z"
+       id="path13"
+       style="stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
 </svg>
