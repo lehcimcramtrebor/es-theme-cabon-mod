@@ -19,6 +19,10 @@
 	  <pos>0.5 0.7</pos>
 	  <size>0.16 0.14</size>
 	  <color>ffffff</color>
+	  <storyboard>
+	          		<animation property="y" from="2" to="2" begin="0" duration="350" mode="linear"/>
+	          		<animation property="y" from="2" to="0.7" begin="350" duration="550" mode="linear"/>
+	  </storyboard>
 	</image>
 	
   </view>
